@@ -1,0 +1,39 @@
+51 - apple
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const capitalizeString = str => str.toUpperCase();
+
+console.log(getRandomString());
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+banana / 73
+const sum = (a, b) => a + b;
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+33,49,77,83,75,42,85,52,82,44,72,94,97,82,84,59,82,58,13,17,63,71,63,0,24,38,36,37,81,53,86,98,76,24,58,64,1,5,76,23,13,64,31,89,37,92,78,45,98,80,27,49,77,13,23,13,81,36,47,22,84,46,82,39,29,57,5,11,4,64,10,16,4,5,12,35,43,24,60,26,13,47,71,8,74,53,28,16,2,17,72,63,60,6,85 + 70
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple - true
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const reverseString = str => str.split("").reverse().join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+97,39,42,0,26,31,72,4,91,91,30,64,72,60,95,78,81,58,59,50,53,73,53,66,92,48,95,7,24,76,72,23 / grape
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+grape - 95
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+kiwi - 95,68,86,7,5,97,64,94,7,64,83,51,98,83,28,92,11,16,2,2,90,41,81,91,75,60,20,16,22,17,64,58,51,74,60,23,26,60,76,70,25,42,82,94
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+52 / grape
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+orange
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+// This is a comment
+const variableName = getRandomNumber();
