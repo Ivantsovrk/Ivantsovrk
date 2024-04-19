@@ -1,0 +1,24 @@
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+41 + 97
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+apple / false
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+true + 25,17,78,67,25,17,77,90,54,91,98,42,47,80,30,72,88,15,7,46,88,55,36,96,22,94,50,52,95,73,15,78,91,78,32,1,68,78,10,49,66,22,35,0,19,83,77,77,42,48,48,21,12,19,46,58,33,29,28,57,53,86,93,3,92,42,81,98,94,87,45,55,20,71,4,51,71,15,30,5,29,45,98,42,82,66,90,49,61,10,71,49,63,59,98,37,75
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const removeDuplicates = array => Array.from(new Set(array));
+true / orange
+const isEven = num => num % 2 === 0;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+false - grape
+const variableName = getRandomNumber();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
